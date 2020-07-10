@@ -7,10 +7,6 @@ points as you go...
 
 ----------------------------------------------------------
 
-This is product release (  1.10  )
-
-----------------------------------------------------------
-
 WARNING!
 
 Please only edit config if necessary.
