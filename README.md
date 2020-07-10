@@ -1,10 +1,9 @@
-This program was made by Kevin Apetrei. 
+This program is made by Kevin Apetrei. 
 
-( HIGHER OR LOWER )
-
-Higher or Lower is a game where there is a decreasing
-range of number you have to guess from to earn points
-or lose points if they are higher or lower.
+Higher or Lower is a minigame where you try to guess
+whether the next number will be higher or lower. As
+you play the game gets harder, losing and gaining
+points as you go...
 
 ----------------------------------------------------------
 
