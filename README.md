@@ -6,16 +6,9 @@ you play the game gets harder, losing and gaining
 points as you go...
 
 ----------------------------------------------------------
-
-WARNING!
-
 Please only edit config if necessary.
-
-WARNING!
-
 ----------------------------------------------------------
-
-INSTRUCTIONS FOR USE:
+Usage Instructions:
 
 1. Run setup.py via Python3
 
