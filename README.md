@@ -13,3 +13,4 @@ Usage Instructions:
 1. Run setup.py via Python3
 
 ----------------------------------------------------------
+Please look at the different version of the game.
