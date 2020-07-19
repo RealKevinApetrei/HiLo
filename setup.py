@@ -265,7 +265,7 @@ def menu_ui(): # Menu UI
     # -- Labels --
 
     high_score_label = tk.Label(menu, text="High Score", font="times 20 underline").place(x=150, y=50, anchor="center") # Label:"High Score"
-    high_score_value_label = tk.Label(menu, textvariable=high_score_ui, font="fixedsys 25 bold").place(x=150, y=100, anchor="center") # High Score (high_score_ui)
+    high_score_value_label = tk.Label(menu, textvariable=high_score_ui, font="fixedsys 25 bold").place(x=150, y=120, anchor="center") # High Score (high_score_ui)
 
     previous_game_score_label = tk.Label(menu, text="Previous Score", font="arial 15 underline").place(x=150, y=150, anchor="center") # Label: "Previous Score"
     previous_game_score_value_label = tk.Label(menu, textvariable=previous_game_score_ui, font="arial 20 bold").place(x=150, y=180, anchor="center") # Previous Score (previous_game_score_ui)
