@@ -12,5 +12,9 @@ Usage Instructions:
 
 1. Run setup.py via Python3
 
+**IF YOU HAVE PROBLEMS WITH THE DATA FILES, PLEASE RESET THEM TO 0 IF THEY ARE EMPTY.**
+
 ----------------------------------------------------------
 Please look at the different versions of the game.
+
+
