@@ -12,9 +12,7 @@ Usage Instructions:
 
 1. Run setup.py via Python3
 
-**IF YOU HAVE PROBLEMS WITH THE DATA FILES, OR MENU VALUES SHOWING, PLEASE RESET THEM MANUALLY TO 0 IF THEY ARE EMPTY.**
-
 ----------------------------------------------------------
-Please look at the different versions of the game.
+Recommended to install the latest **release** of the mingiame. Thanks!
 
 
