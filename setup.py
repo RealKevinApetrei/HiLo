@@ -12,7 +12,7 @@ starting_score = 0 # Starting Score (Default: 0)
 number_range = 100 # Starting Number Range (Default: 100)
 score_changer_range = 10 # +/-(1 - {score_changer_range}) per outcome. (Add/Remove Score)
 
-build_version = "v2.00" # Current build version
+build_version = "v2.02" # Current build version
 # Developer Configuration
 
 
@@ -39,7 +39,7 @@ def play(): # Play game (game_ui())
 # Pre-defined variables/objects
 Player = Score() # Initialise Player Object (Score System)
 number_picked = hilo_number() # Initialise Number Variable
-previous_number_picked = 0 # Initialise Previous Number Variable (0)                                                          
+previous_number_picked = 0 # Initialise Previous Number Variable (0)
 build_version = build_version # Build Version (e.g. v1.0, v2.0-alpha)
 
 
@@ -65,7 +65,7 @@ def end_game(): # End game
     high_score_file = open("Data/high_score.txt", "r") # Open High Score File (READ)
     current_high_score = high_score_file.readline() # Read current high score
     high_score_file.close() # Close file
-    
+
     high_score_file = open("Data/high_score.txt", "w") # Open High Score file (WRITE)
 
     print(str(Player.score))
@@ -77,7 +77,7 @@ def end_game(): # End game
         high_score_file.write(str(current_high_score)) # Re-write current score
         high_score_file.close() # Close file
     # High Score File (READ/WRITE) (SET NEW SCORE)
-    
+
     os.execl(sys.executable, sys.executable, *sys.argv) # Re-run game
 
 
@@ -85,7 +85,7 @@ def higher(): # Higher Button Function (higher_button)
     # GLOBAL VARIABLES
     global previous_number_picked
     global number_picked
-    
+
     global number_range
 
     global current_score_ui
@@ -103,7 +103,7 @@ def higher(): # Higher Button Function (higher_button)
     if number_range < 3: # Check End Game
         end_game() # End Game Function
 
-    
+
     previous_number_picked = number_picked # Switch (number_picked) to (previous_number_picked)
     number_picked = hilo_number() # Pick new random number (hilo_number())
 
@@ -128,7 +128,7 @@ def lower(): # Loclass Score: # Scoring System
     # GLOBAL VARIABLES
     global previous_number_picked
     global number_picked
-    
+
     global number_range
 
     global current_score_ui
@@ -146,7 +146,7 @@ def lower(): # Loclass Score: # Scoring System
     if number_range < 3: # Check End Game
         end_game() # End Game Function
 
-    
+
     previous_number_picked = number_picked # Switch (number_picked) to (previous_number_picked)
     number_picked = hilo_number() # Pick new random number (hilo_number())
 
@@ -206,7 +206,7 @@ def game_ui(): # Main Game UI
     # -- Labels --
     current_score_label = tk.Label(ui, textvariable=current_score_ui, font="fixedsys 35 bold") # Current Score (current_score_ui)
     current_score_label.place(x=250, y=80, anchor="center")
-    
+
     number_range_start_label = tk.Label(ui, text="1 -->", font="system 25 bold").place(x=100, y=225) # Start of Range (1)
     number_picked_label = tk.Label(ui, textvariable=number_picked_ui, font="times 45 bold underline").place(x=250, y=250, anchor="center") # Current Number Picked (number_picked_ui)
     number_range_end_label = tk.Label(ui, textvariable=number_range_end_ui, font="system 25 bold").place(x=300, y=225) # End of Range (number_range_end_label)
@@ -242,7 +242,7 @@ def menu_ui(): # Menu UI
     previous_score_file.close() # Close file
     # Previous Game Score
 
-    # Games Played 
+    # Games Played
     games_played_ui = tk.StringVar() # for total games played
 
     games_played_file = open("Data/games_played.txt", "r") # Open Games Played File
@@ -283,7 +283,7 @@ def menu_ui(): # Menu UI
 
     menu.mainloop() # UI Loop
 
-menu_ui() # Run Menu UI 
+menu_ui() # Run Menu UI
 
 
 #                    GNU GENERAL PUBLIC LICENSE

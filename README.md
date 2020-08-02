@@ -1,4 +1,4 @@
-This program is made by Kevin Apetrei. 
+This program is made by Kevin Apetrei.
 
 HiLo is a minigame where you try to guess
 whether the next number will be higher or lower. As
@@ -13,6 +13,4 @@ Usage Instructions:
 1. Run setup.py via Python3
 
 ----------------------------------------------------------
-Recommended to install the latest **release** of the mingiame. Thanks!
-
-
+Recommended to install the latest **release** of the minigame. Thanks!
